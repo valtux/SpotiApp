@@ -5,9 +5,10 @@ import "rxjs/add/operator/map";
 @Injectable()
 export class SpotifyService {
 
+
   artistas: any[] = [];
   urlSpotify: string = 'https://api.spotify.com/v1/';
-  private token: string = 'BQA3BPF-HBll38jRz0QgmogPqV_7wZx2pJqqQEEzS_LGzh7RIz9YP5MTP0y-p1hCOuZlCLkQxSMExXIvG48';
+  private token: string = 'BQD1M547Ypi4hYld5xsqPEyAHo7Tx2jO7cSOpWWQYQ4UL_BuTsDvfDrq4Y61Qirjb9txVAaE9Yi_hKTq1HA';
 
   constructor(public http: HttpClient) {
 

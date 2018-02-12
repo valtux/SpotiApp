@@ -34,10 +34,13 @@
             <td>{{pista.name}}</td>
             <td>{{pista.popularity}} %</td>
             <td>
-              <audio controls>
+              <!-- <audio controls>
                 <source [src]="pista.preview_url">
                   tu navegador es muy viejo
-                </audio>
+                </audio> -->
+
+                <iframe [src]="pista.uri | domSeguro:'https://open.spotify.com/embed?uri='" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>
+                <!-- <iframe src="https://open.spotify.com/embed?uri=spotify:track:703Y8dw2MMfEodrw5D6hDd" width="300" height="80" frameborder="0" allowtransparency="true"></iframe> -->
               </td>
             </tr>
 
