@@ -7,6 +7,14 @@ body{
 hr{
   border-color: white;
 }
+
+.img-50{
+  width: 50px;
+}
+
+.img-circular{
+  border-radius: 100%;
+}
 .puntero{
   cursor: pointer;
 }

@@ -16,16 +16,16 @@ export class SearchComponent {
   }
   buscarArtista() {
 
-    if(this.termino.length == 0){
+    if (this.termino.length == 0) {
       return;
     }
 
-    // console.log(this.termino);
+    console.log(this.termino);
     this._spotify.getArtistas(this.termino)
-      .subscribe(artistas => {
-        console.log("informacion lista");
-        console.log(artistas);
-      })
+                .subscribe(data => {
+                    // console.log("informacion lista");
+                    // console.log(data.artists.items);
+    });
 
   }
 
