@@ -8,7 +8,7 @@ export class SpotifyService {
 
   artistas: any[] = [];
   urlSpotify: string = 'https://api.spotify.com/v1/';
-  private token: string = 'BQBZTf8bL1q87p11dCw_HHFiRYfbYvFan-7FYsvRuNCeSj5fuR6NMWoMUte0vwqfrvXh4z0yj6Q8mzxWwrU';
+  private token: string = 'BQC6RU9DzOhW4P_8blsRJxJHae78qMsSqaMptBa1Rgc1HNaHRydzqpAYN29L12SOADtrSKvgJBetWQ5BPjM';
 
   constructor(public http: HttpClient) {
 
